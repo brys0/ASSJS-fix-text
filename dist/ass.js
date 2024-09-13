@@ -865,7 +865,7 @@ function compile(text, options) {
 
 // https://github.com/weizhenye/ASS/wiki/Font-Size-in-ASS
 
-const useTextMetrics = 'fontBoundingBoxAscent' in TextMetrics.prototype;
+const useTextMetrics = true;
 
 // It seems max line-height is 1200px in Firefox.
 const isFirefox = navigator.userAgent.toLowerCase().includes('firefox');
